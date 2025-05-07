@@ -88,7 +88,9 @@ Demais imagens devem ser creditadas conforme suas respectivas licenças.
 📩 Contato
 
 Desenvolvido por Edson Carvalho
+
 ✉ Email: edson4518@gmail.com
+
 🔗 LinkedIn: [linkedin.com/seu-perfil](https://www.linkedin.com/in/edson-carvalho-213b051b1/)
 
 🎯 Objetivo Final

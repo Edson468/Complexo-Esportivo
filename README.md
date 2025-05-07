@@ -6,6 +6,7 @@ O SportsLife é um site profissional para um complexo esportivo que oferece aula
 Atualmente, o projeto está em fase de desenvolvimento, utilizando HTML e CSS, com planos para implementação de JavaScript em breve para melhorar a interatividade e validação de formulários.
 
 🚀 Funcionalidades Implementadas
+
 ✅ Menu de Navegação Intuitivo
 
 Links para páginas principais (Home, Modalidades, Sobre Nós, Contato).
@@ -35,6 +36,7 @@ Atribuição necessária:
 "Logo by PNGtree, usado sob licença padrão para uso não comercial/comercial (conforme termos do site)."
 
 🛠 Tecnologias Utilizadas
+
 HTML5 (Estrutura semântica)
 
 CSS3 (Estilização avançada com Flexbox/Grid)

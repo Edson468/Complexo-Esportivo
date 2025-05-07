@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <header class="cabecalho">
+            <div class="logo-principal">
+                <img src="img/banner.png" class="banner" alt="">
+                <img src="img/logo100.png" class="logo" alt="">
+            </div>
+            
+            <nav id="navegacao">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Modalidades</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+
+                <a href="#" class="botao-destaque">Inscreva-se</a>
+
+            </nav>
+        </header>
+
+        <main class="container-inscricao">
+            
+            <div id="produto-geral">
+
+                <h2>Cadastro</h2>
+                
+                <form action="concluido.html">
+
+                    <div class="dados-pessoais">
+                        <fieldset>
+                            <legend>Dados Pessoais</legend>
+                            <label for="nome">Nome Completo</label><br>
+                            <input type="text" name="nome" id="nome">
+                            <br><br>
+                            <label for="nome-mae">Nome da Mãe</label><br>
+                            <input type="text" name="nome-mae" id="nome-mae">
+                            <br><br>
+                            <label for="dtnascimento">Data de Nascimento</label><br>
+                            <input type="text" name="dtnascimento" id="dtnascimento">
+                            <br><br>
+                            <label for="cpf">CPF</label><br>
+                            <input type="number" name="cpf" id="cpf">
+                            <br><br>
+                            <label for="sexo">Sexo</label><br>
+                            <input type="radio" name="sexo" id="sexo">Masculino
+                            <input type="radio" name="sexo" id="sexo">Feminino
+                        </fieldset>
+                    </div>
+
+                    <div class="endereco">
+                        <fieldset>
+                            <legend>Endereço</legend>
+                            <label for="rua">Rua</label><br>
+                            <input type="text" name="rua" id="rua">
+                            <br><br>
+                            <label for="numero">Numero</label><br>
+                            <input type="number" name="numero" id="numero">
+                            <br><br>
+                            <label for="complemento">Complemento</label><br>
+                            <input type="text" name="complemento" id="complemento">
+                            <br><br>
+                            <label for="bairro">Bairro</label><br>
+                            <input type="text" name="bairro" id="bairro">
+                            <br><br>
+                            <label for="cidade">Cidade</label><br>
+                            <input type="text" name="cidade" id="cidade"><br><br>
+                            <label for="estado">Estado</label><br>
+                            <input type="text" name="estado" id="estado">
+                        </fieldset>
+                    </div>
+
+                    <div class="esporte">
+                        <fieldset>
+                            <legend>Esporte </legend>
+                            <label for="esporte">Esporte desejado</label><br>
+                            <input type="text" name="esporte" id="esporte">
+                        </fieldset>
+                    </div>
+                    <button type="submit" id="botao">Cadastrar</button>
+                </form>
+            </div>    
+        </main>
+
+    </main>    
+    <footer>
+        <div class="rodape">
+            <a href="#">Inscreva-se</a> <a href="#" class="botao-destaque">Saiba mais</a>
+            <h4>Todos os direitos reservados &copy;</h4>
+        </div>
+    </footer>
+    
+</body>
+</html>

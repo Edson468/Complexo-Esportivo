@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        'cabecalho cabecalho'
+        'conteudo1 lateral'
+        'conteudo2 conteudo3'
+        ;
+    row-gap: 20px;
+    column-gap: 30px;
+    padding: 10px auto;
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.logo{
+    position: relative;
+    left: 50px;
+}
+
+.banner{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    right: 45px;
+}
+
+#navegacao ul{
+    flex-grow: 1;
+    display: flex;
+    position: absolute;
+    top: 650px;
+    right: 750px;
+    width: 500px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 15px auto;
+    list-style: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#navegacao ul li a{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    right: 20px;
+    text-decoration: none;
+    color: #0b0b55;
+    border-radius: 30px;
+    box-shadow: 0 1px 2px darkblue;
+}
+
+#navegacao ul li a:hover{
+    background-color: #0192C0;
+    color: #f8f8f8;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+#navegacao>a{
+    position: absolute;
+    right: 450px;
+    top: 660px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.conteudo1{
+    grid-area: conteudo1;
+}
+
+.conteudo-principal>img{
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.conteudo-principal>p{
+    text-align: justify;
+}
+
+#conteudo-lateral{
+    grid-area: lateral;
+}
+
+.paragrafo-lateral{
+    text-align: justify;
+    width: 500px;
+    height: 580px;
+    overflow-y: auto;
+}
+
+.conteudo2{
+    grid-area: conteudo2;
+}
+
+.conteudo-2>img{
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.conteudo-2>p{
+    text-align: justify;
+}
+
+.conteudo3{
+    grid-area: conteudo3;
+    width: 520px;
+    position: relative;
+    top: -100px;
+    text-align: justify;
+}
+
+.link a{
+    text-align: start;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+
+}
+
+.conteudo-final>img{
+    width: 500px;
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+}
+
+.botao-destaque{
+    background-color: #0192C0;
+    color: #ffffff;
+    box-shadow: 0 1px 2px darkblue;
+}
+
+.botao-destaque:hover{
+    background-color: #FAA327;
+    color: #ffffff;
+    transition: 0.3s ease;
+    box-shadow: 0 1px 2px darkblue;
+}
+
+.container-inscricao{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        'dados'
+        'endereco'
+        'esporte'
+    ;
+    row-gap: 20px;
+    column-gap: 30px;
+    padding: 10px auto;
+}
+
+#produto-geral{
+    width: 1100px;
+}
+
+#produto-geral>h2{
+    position: relative;
+    left: 45%;
+}
+
+.dados-pessoais{
+    grid-area: dados;
+    
+}
+
+.dados-pessoais #nome,
+#nome-mae, #dtnascimento, #cpf{
+    width: 500px;
+}
+
+.endereco{
+    grid-area: endereco;
+}
+
+.endereco #rua,
+#numero, #complemento, #bairro,
+#cidade, #estado{
+    width: 500px;
+}
+
+.esporte{
+    grid-area: esporte;
+}
+
+.esporte #esporte{
+    width: 500px;
+}
+
+#botao{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #0192C0;
+    color: #fff;
+    position: relative;
+    left: 45%;
+}
+
+#botao:hover{
+    background-color: #FAA327;
+    color: #fff;
+       
+}
+
+.rodape{
+    margin: 20px auto;
+    width: 1280px;
+    height: 100px;
+    background-color: #DEDBD4;
+    text-align: center;
+}
+
+.rodape h4{
+    padding: 20px;
+}
+
+.rodape>a{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 1px 2px darkblue;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+    color: #0b0b55;
+    border-radius: 30px;
+    box-shadow: 0 1px 2px darkblue;
+}
+
+.rodape>a:hover{
+    background-color: #0192C0;
+    color: #f8f8f8;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}

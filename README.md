@@ -67,9 +67,13 @@ Navegue pelo site e teste o formulário de cadastro.
 📅 Próximas Atualizações (Roadmap)
 
 🔜 JavaScript para validação de formulário
+
 🔜 Banco de dados (localStorage ou backend simples) para armazenar inscrições
+
 🔜 Página de confirmação após cadastro
+
 🔜 Melhorias de acessibilidade (ARIA, contrastes)
+
 🔜 Sistema de login para alunos cadastrados
 
 © Direitos Autorais e Licenças
